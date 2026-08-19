@@ -426,12 +426,12 @@ h1, h2, h3 {
   .nav, .todo, .btn--ghost, .section__intro,
   .footer__kicker, .footer__title { display: none !important; }
 
-  body { font-size: 9pt; line-height: 1.4; }
+  body { font-size: 8.5pt; line-height: 1.35; }
   h1, h2, h3 { line-height: 1.15; }
 
   .hero { padding: 0 0 .5rem; }
-  .hero__name { font-size: 24pt; margin-bottom: .5rem; }
-  .hero__lede { font-size: 10pt; max-width: none; margin-bottom: .6rem; }
+  .hero__name { font-size: 21pt; margin-bottom: .4rem; }
+  .hero__lede { font-size: 9.5pt; max-width: none; margin-bottom: .5rem; }
   .eyebrow { margin-bottom: .5rem; font-size: 7.5pt; }
   .facts { border-radius: 0; margin-bottom: .6rem; }
   .facts li { padding: .35rem .5rem; }
@@ -441,12 +441,12 @@ h1, h2, h3 {
   .btn { padding: .2rem .5rem; font-size: 8.5pt; }
   .meta { padding-top: .5rem; gap: .3rem 1rem; }
 
-  .section { grid-template-columns: 1fr; padding: .7rem 0; gap: .4rem; border-top: 1px solid #ccc; }
+  .section { grid-template-columns: 1fr; padding: .55rem 0; gap: .3rem; border-top: 1px solid #ccc; }
   .section__title { font-size: 13pt; }
-  .job { padding: .5rem 0 .6rem; }
+  .job { padding: .4rem 0 .45rem; }
   .job__head { margin-bottom: .5rem; }
   .job__company { font-size: 12pt; }
-  .job__points { gap: .25rem; max-width: none; margin-bottom: .5rem; }
+  .job__points { gap: .18rem; max-width: none; margin-bottom: .4rem; }
   .chips li { padding: .12rem .45rem; font-size: 8pt; }
   /* grid плохо переносится по страницам — в печати колонки делает multicol */
   .stack, .projects, .edu { display: block; columns: 2; column-gap: 1.2rem; }
